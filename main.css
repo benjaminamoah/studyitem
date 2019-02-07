@@ -1,0 +1,535 @@
+body{
+	font: normal 15px arial, sans-serif;
+	//margin-top: 0px;
+	//margin-right: 0px;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+}
+
+input{
+	cursor: pointer;
+}
+
+img{
+	border: 0;
+}
+
+td{
+	background-color: #ccccff;
+	border: 0px;
+	margin: 0px;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+p{
+	//text-align: justify;
+}
+
+h4{
+	color: #347777;
+	margin-bottom: 4px;
+}
+
+h3{
+	color: #347777;
+}
+
+#container{
+	width: 900px;
+	margin: 0px auto;
+	background-color: #fff;
+	border: 1px solid #ddddff;
+	border-radius: 5px;
+	padding:15px;
+	text-align: center;
+}
+
+#container_stu_profile{
+	width: 800px;
+	margin: 0px auto;
+	background-color: #fff;
+	border: 1px solid #ddddff;
+	border-radius: 5px;
+	padding:15px;
+}
+
+#contain{
+	background-color: #fff;
+	border: 1px solid #ddf;
+	border-radius: 5px;
+	padding:15px;
+	display: inline-block;
+}
+
+#main_container{
+	width: 980px;
+	height: 100%;
+	margin: 0px auto;
+	font-size: 13px;
+	border-radius: 10px;
+}
+
+#main_top{
+	background: #eeeeef url("images/main_top.png");
+	width: 100%;
+	height: 70px;
+	margin: auto;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-top: 10px;
+}
+
+#main_top_right{
+	width: 320px;
+	height: 100%;
+	margin: 0px auto;
+	float: left;
+}
+
+#main_top_left{
+	width: 290px;
+	height: 100%;
+	margin: 0px auto;
+	margin-left: 5%;
+	float: left;
+}
+
+#main_top_left img{
+	width: 290px; 
+	//height: 100%;
+}
+
+#menu_item{
+	background: #ddd;
+	color: #000;
+	font-size: 12px;
+	padding: 8px;
+	margin: 1px;
+	box-shadow: -1px 0px 6px #888;
+	float: left;
+}
+
+#menu_item:hover{
+	box-shadow: -1px 0px 6px #fff;
+}
+
+#main{
+	//background-color: #88f;
+	width: 980px;
+	height: 100%;
+	margin: 0px auto;
+	padding-bottom: 8px;
+	//border: 1px #ccc solid;
+	//border-radius: 15px;
+	float: left;
+}
+
+#main_left{
+	background-color: #fff;
+	width: 180px;
+	margin-left: 5px;
+	margin-right: 4px;
+	padding: 6px;
+	padding-top: 0px;
+	border-radius: 10px;
+	float: left;
+}
+
+#main_left input{
+	background: none;
+	color: #12f;
+	border: none;
+}
+
+#main_left input:hover{
+	color: #acf;
+}
+
+ /*
+#logo_profile{
+	border: 1px solid #ccc;
+	padding: 6px;
+}*/
+
+#curricula{
+	width:500px;
+	float:left;
+}
+
+#curriculum{
+	margin:5px;
+	width:120px;
+	float:left;
+}
+
+#curriculum input{
+	width:120px;
+	float:left;
+}
+
+#curriculum h4{
+	width:120px;
+	text-align: center;
+}
+
+#subtopic{
+	margin-bottom: 4px;
+}
+
+#subtopic a{
+	font-size: 12px;
+	color: #00f;
+	cursor: pointer;
+}
+
+#subtopic a:hover{
+	color: #aaf;
+}
+
+#main_right{
+	background-color: #fff;
+	width: 540px;
+	margin-right: 4px;
+	padding: 10px;
+	//padding-right: 6px;
+	border-left: 1px #ccc solid;
+	border-right: 1px #ccc solid;
+	box-shadow: -1px 0px 4px #eee;
+	float: left;
+}
+
+#main_right input{
+	background: none;
+	border: none;
+	color: #00f;
+}
+
+#main_right input:hover{
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: #aaf;
+}
+
+#main_sn{
+	background: #fff;
+	padding: 4px;
+	width: 200px;
+	float: left;
+}
+
+#footer{
+	background: #12f url("images/footer.png") repeat-x;
+	width: 100%;
+	height: 100%;
+	font-size: 11px;
+	margin: 0px auto;
+	margin-top: 24px;
+	margin-left: -20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: right;
+	color: #fff;
+}
+
+#footer_text{
+	width: 500px;
+	height: 100%;
+	margin-left: 60px;
+	float: left;
+	color: #fff;
+}
+
+#admin td{
+	background-color: #dddddf;
+	padding: 0px;
+}
+
+#password{
+	border: 1px #8888ff solid;
+}
+
+#username{
+	border: 1px #8888ff solid;
+}
+
+#submit{
+	background-color: #777777;
+	color: #ffffff;
+}
+
+#submit:hover{
+	color: #cccccc;
+}
+
+#teacher_cm{
+	background-color: #ada; 
+	width:150px; 
+	padding: 0px;
+	cursor: pointer;
+}
+
+#teacher_cm:hover{
+	background-color: #8c8;  
+	width:150px; 
+	padding: 0px;
+	cursor: pointer;
+}
+
+#teacher_cm input{
+	background-color: #ada; 
+	color: #000;  
+	text-decoration: none;
+	width:150px; 
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+#teacher_cm input:hover{
+	background-color: #8c8; 
+	color: #000;  
+	text-decoration: none;
+	width:150px; 
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+#student_cm{
+	background-color: #ada; 
+	width:150px; 
+	padding: 0px;
+	cursor: pointer;
+}
+
+#student_cm:hover{
+	background-color: #8c8;  
+	width:150px; 
+	padding: 0px;
+	cursor: pointer;
+}
+
+#student_cm input{
+	background-color: #ada; 
+	color: #000;  
+	text-decoration: none;
+	width:150px; 
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+#student_cm input:hover{
+	background-color: #8c8; 
+	color: #000;  
+	text-decoration: none;
+	width:150px; 
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+#cm_pane{
+	float: left;
+	width: 25%;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+#content_pane{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 15px;
+	float: left;
+	width: 70%;
+}
+
+#content{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 5px;
+	float: left;
+	width: 60%;
+}
+
+#inp_subjects input{
+	color: #000;  
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	padding-left: 0px;
+	margin: 0px;
+	border: none;
+	border-bottom: 3px solid #fff;
+	border-shadow: none;
+	cursor: pointer;
+	text-align: left;
+}
+
+#inp_subjects input:hover{
+	color: #777;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	padding-left: 0px;
+	border: none;
+	border-bottom: 3px solid #fff;
+	border-radius: 15px;
+	cursor: pointer;
+	text-align: left;
+}
+
+#inp_topics input{
+	color: #000;  
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 0px;
+	margin: 0px;
+	border: none;
+	cursor: pointer;
+	text-align: left;
+}
+
+#inp_topics input:hover{
+	color: #777;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 0px;
+	border: none;
+	cursor: pointer;
+	text-align: left;
+}
+
+#inp_subtopics input{
+	color: #000;  
+	font-size: 12px;
+	text-decoration: none;
+	padding: 0px;
+	border: none;
+	cursor: pointer;
+	text-align: left;
+}
+
+#inp_subtopics input:hover{
+	color: #777;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 0px;
+	padding-left: 0px;
+	border: none;
+	cursor: pointer;
+	text-align: left;
+}
+
+#inp_cm input{
+	color: #000;  
+	font-size: 20px;
+	text-decoration: none;
+	padding: 0px;
+	padding-left: 0px;
+	border: none;
+	cursor: pointer;
+}
+
+#inp_cm input:hover{
+	color: #777;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 0px;
+	border: none;
+	cursor: pointer;
+}
+
+#post_content{
+	background-color: #ada; 
+	font-weight: bold;
+	width:150px; 
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	margin-left: 200px;
+	margin:40px 150px;
+}
+
+#post_content:hover{
+	background-color: #8c8;  
+	font-weight: bold;
+	width:150px; 
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	margin:40px 150px;
+}
+
+#update_content{
+	background-color: #aac; 
+	color: #eef;
+	font-weight: bold;
+	width:100px; 
+	padding: 5px;
+	cursor: pointer;
+	border: none;
+	margin:0px 0px;
+}
+
+#update_content:hover{
+	background-color: #88a;  
+	color: #eef;
+	font-weight: bold;
+	width:100px; 
+	padding: 5px;
+	cursor: pointer;
+	border: none;
+	margin:0px 0px;
+}
+
+#delete_content{
+	background-color: #caa; 
+	color: #fee;
+	font-weight: bold;
+	width:100px; 
+	padding: 5px;
+	cursor: pointer;
+	border: none;
+	margin:0px 0px;
+}
+
+#delete_content:hover{
+	background-color: #a88;  
+	color: #fee;
+	font-weight: bold;
+	width:100px; 
+	padding: 5px;
+	cursor: pointer;
+	border: none;
+	margin:0px 0px;
+}
+
+#edt_del{
+	height:30px;
+	margin:10px;
+}
+
+#edt{
+	height:30px;
+	float: left;
+	width: 50%;
+}
+
+#del{
+	height:30px;
+	float: left;
+	width: 50%;
+}
+
+#student_pic img{
+	border: #dde 1px solid;
+}
