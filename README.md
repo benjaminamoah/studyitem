@@ -1,3 +1,3 @@
 # studyitem
 Studyitem source code
-# This is some sorce code from the StudyItem project
+# This is some source code from the StudyItem project
